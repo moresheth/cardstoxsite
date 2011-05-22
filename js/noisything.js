@@ -72,5 +72,5 @@ function makeBackground() {
 		}
 	}
 
-	$(table).css('background-image', "url('" + uri + "')");
+	$('#table').css('background-image', "url('" + uri + "')");
 }

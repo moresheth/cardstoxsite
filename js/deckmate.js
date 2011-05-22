@@ -1,4 +1,4 @@
-// domready, bonzo, bean, qwery, underscore
+// bonzo, bean, qwery, valentine
 
 function DeckMate(el) {
 
@@ -50,11 +50,10 @@ function DeckMate(el) {
 	}
 	$( deck ).html( htmlstr );
 	// Qwery
-	var cards = $('.card');
-
+	var cards = $('.card', deck);
 	var current = 0;
 
-	$.each( cards.elements.reverse(), function( card ) {
+	$.each( cards.reverse(), function( card ) {
 		// Bonzo
 		$(card).css({
 			left: current + 'px',
@@ -113,7 +112,7 @@ function DeckMate(el) {
 		if (dragbox) {
 			
 			dragbox = false;
-			$('.dragbox').remove();
+			$('.dragbox',deck).remove();
 		}
 	}
 

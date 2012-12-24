@@ -25,22 +25,12 @@ body {
 	background: #444;
 	background: rgba(16,16,16,0.5);
 
-	-webkit-box-shadow: rgba(0,0,0,0.75) 0 0 5px;
-	-khtml-box-shadow: rgba(0,0,0,0.75) 0 0 5px;
-	-moz-box-shadow: rgba(0,0,0,0.75) 0 0 5px;
-	-ms-box-shadow: rgba(0,0,0,0.75) 0 0 5px;
-	-o-box-shadow: rgba(0,0,0,0.75) 0 0 5px;
-	box-shadow: rrgba(0,0,0,0.75) 0 0 5px;
-
 	height: 30px;
 	left: 0;
 	padding: 3px 12px;
 	position: absolute;
 	right: 0;
 	z-index: 10;
-	box-shadow: rgba(0,0,0,0.75) 0 0 5px;
-	-webkit-box-shadow: rgba(0,0,0,0.75) 0 0 5px;
-	-moz-box-shadow: rgba(0,0,0,0.75) 0 0 5px;
 }
 #toppanel{
 	top: 0;

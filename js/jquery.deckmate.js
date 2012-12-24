@@ -12,7 +12,7 @@ $.fn.deckmate = function( options ) {
 		if ( element.data('deckmate') ) $.extend( settings, element.data('deckmate') )
 
 		// Pass in the table element.
-		var deckmate = new DeckMate( this )
+		var deckmate = new DeckMate( element )
 
 		// Load the deck specified in the settings
 		deckmate.placeDeck( settings.deck )

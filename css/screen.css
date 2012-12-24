@@ -35,14 +35,10 @@ body {
 #toppanel{
 	top: 0;
 }
-#btmpanel{
-	bottom: 0;
-}
 h1{
 	color: #4a4;
 	line-height: 30px;
 	font-weight: normal;
-	text-shadow: -1px -1px 1px rgba(255,255,255,0.25), 1px 1px 1px rgba(0,0,0,0.75);
 }
 h1 a{
 	color: #4a4;
@@ -52,11 +48,6 @@ h1 a:active{
 	color: #6e6;
 }
 
-#deck{
-	left: 100px;
-	position: absolute;
-	top: 100px;
-}
 .card{
 	background: #eee;
 	background: -moz-linear-gradient(top, #f8f8f8, #cccccc);
@@ -95,7 +86,7 @@ h1 a:active{
 	width: 15em;
 	height: 20em;
 }
-#deck .selected{
+.selected{
 	-webkit-box-shadow: rgba(255, 255, 255, 0.7) 0 0 2em, rgba(16, 16, 255, 0.8) 0 0 1em, rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.3em;
 	-khtml-box-shadow: rgba(255, 255, 255, 0.7) 0 0 2em, rgba(16, 16, 255, 0.8) 0 0 1em, rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.3em;
 	-moz-box-shadow: rgba(255, 255, 255, 0.7) 0 0 2em, rgba(16, 16, 255, 0.8) 0 0 1em, rgba(0, 0, 0, 0.5) 0.1em 0.1em 0.3em;

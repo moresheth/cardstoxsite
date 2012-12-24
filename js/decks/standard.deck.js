@@ -1,5 +1,5 @@
 // The name of the deck, and filename, must be a function and property of the DeckMate.decks object.
-// It must return an array of card elements that have been added to the DOM (not yet to the table).
+// It must return an array of Card objects that have been added to the DOM (not yet to the table).
 DeckMate.decks.standard = function() {
 
 	var cards = [],
@@ -50,12 +50,10 @@ DeckMate.decks.standard = function() {
 			htmlstr += '<i></i>'
 			htmlstr += '</div>'
 
-			card = $( htmlstr )
-
-			cards.push( card )
+			cards.push( new Card( $( htmlstr ) ) )
 
 		}
 	}
 
-	return cards
+	return cards.reverse()
 }
